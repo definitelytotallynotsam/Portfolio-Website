@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Pragati+Narrow:wght@700&display=swap');
+
+body {
+    /* background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab); */
+    background: linear-gradient(-45deg, #FDDD9F, #EDA095, #D9648D, #5E5185, #443D73, #352D57);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    height: 150vh;
+    overflow:hidden;
+    font-family: 'Pragati Narrow', sans-serif;
+}
+
+@keyframes gradient {
+0% {
+background-position: 0% 50%;
+}
+50% {
+background-position: 100% 50%;
+}
+100% {
+background-position: 0% 50%;
+}
+}
+
+.nbar {
+transition:  0.2s ease-in;
+}
+
+.nbar:hover{
+background: rgba(255, 255, 255, 0.144);
+}
+
+p{
+color:white;
+}
+
+
+.col-2{
+    transition: ease-in-out 250ms;
+}
+
+.col-2:hover{
+  transform: scale(1.1); 
+  cursor: pointer;
+}
+
+.citem-2{
+  margin-top:72px;
+}
+
+.card-1 {
+  background-image: url(images/platplumb.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.card-2 {
+  background-image: url(images/calc.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.card-3 {
+  background-image: url(images/fbla.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.card-4 {
+  background-image: url(images/ecommerce.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.card-5 {
+  background-image: url(images/clock.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.card-6 {
+  background-image: url(images/canvas.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.card-7 {
+  background-image: url(images/hvac.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.card-8 {
+  background-image: url(images/calendar.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.card-9 {
+  background-image: url(images/pdcircle.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.section1{
+  margin-left:75px;
+}
+
+.card-body{
+  transition:300ms ease-in-out;
+  color:transparent;
+}
+
+.card-body:hover{
+  background-image: url(images/download.png);
+  background-size:cover;
+  background-position:center center;
+  color:black;
+}
