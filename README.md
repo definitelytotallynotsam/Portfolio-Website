@@ -1,3 +1,3 @@
 # Portfolio-Website-WIP
 
-https://definitelytotallynotsam.github.io/Portfolio-Website-WIP/
+https://sam-mun.github.io/Portfolio-Website-WIP/
